@@ -9,7 +9,7 @@ const proxy = createProxy({
 });
 
 export const config = {
-  // llms.txt and rss.xml need the locale rewrite even though the general matcher ignores static extensions.
+  // These routes need the locale rewrite even though the general matcher ignores static extensions.
   matcher: [
     "/llms.txt",
     "/rss.xml",
